@@ -1,0 +1,20 @@
+nav{
+    background-color: #bbeaff;
+    width: 180px;
+    margin: 0;
+    border-radius: 5px;
+}
+
+nav li{
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a{
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+ul{
+
+}
