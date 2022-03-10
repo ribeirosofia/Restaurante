@@ -6,8 +6,10 @@
 .subtitulo_2 {
   text-align: center;
   margin: auto;
+  font-size: 2em;
   padding-top: 100px;
 }
+
 
 .principal {
   width: 690px;
@@ -25,5 +27,5 @@
   margin-left: -4px;
   float: right;
   align-items: center;
-  padding-top: 300px;
+  padding-top: 180px;
 }
