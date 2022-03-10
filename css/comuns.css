@@ -1,4 +1,29 @@
-.container{
-    width: 940px;
-    background-color: yellow;
+.container {
+  width: 940px;
+  background-color: yellow;
+}
+
+.subtitulo_2 {
+  text-align: center;
+  margin: auto;
+  padding-top: 100px;
+}
+
+.principal {
+  width: 690px;
+  height: 960px;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin-top: -960px;
+  margin-left: -4px;
+  background-color: brown;
+}
+
+.destaques li {
+  display: inline-block;
+  margin-left: -4px;
+  float: right;
+  align-items: center;
+  padding-top: 300px;
 }
