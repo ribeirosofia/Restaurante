@@ -31,8 +31,11 @@
   margin-left: -4px;
 }
 
-h1 {
+.titulo {
   text-align: center;
   margin: auto;
+  font-size: 2em;
+  font-weight: bold;
   padding-top: calc(60px - 16px);
+
 }
