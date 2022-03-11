@@ -1,8 +1,12 @@
 footer{
     text-align: center;
-    background-color: #474545;
     padding: 40px 0;
     
+}
+
+.rodape{
+    border: 5px solid blue;
+    background-color: #474545;
 }
 
 .copyright{

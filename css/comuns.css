@@ -1,6 +1,6 @@
 .container {
   width: 940px;
-  background-color: yellow;
+  border: 2px solid black;
 }
 
 .subtitulo_2 {
@@ -18,7 +18,8 @@
   justify-content: center;
   float: right;
   margin-left: -4px;
-  background-color: brown;
+  border: 2px solid brown;
+  
 }
 
 .destaques{
