@@ -1,5 +1,6 @@
 .container {
   width: 940px;
+  background: url("../img/cerejeira.jpg");
   border: 2px solid black;
 }
 
@@ -9,6 +10,7 @@
   font-size: 2em;
   padding-top: 100px;
 }
+
 
 
 .principal {
