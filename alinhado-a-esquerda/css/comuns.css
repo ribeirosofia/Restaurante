@@ -1,6 +1,6 @@
 .container {
   width: 940px;
-  background: url("../img/cerejeira.jpg");
+  background: url("../img/cherry-bg.jpg");
   border: 2px solid black;
 }
 
@@ -15,7 +15,7 @@
 
 .principal {
   width: 690px;
-  height: 960px;
+  height: 970px;
   align-items: center;
   justify-content: center;
   float: right;
