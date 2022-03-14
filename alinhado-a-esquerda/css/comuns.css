@@ -1,0 +1,61 @@
+.container {
+  width: 940px;
+  border: 2px solid black;
+}
+
+.subtitulo_2 {
+  text-align: center;
+  margin: auto;
+  font-size: 2em;
+  padding-top: 100px;
+}
+
+
+.principal {
+  width: 690px;
+  height: 960px;
+  align-items: center;
+  justify-content: center;
+  float: right;
+  margin-left: -4px;
+  border: 2px solid brown;
+  
+}
+
+.destaques{
+  display: inline-block;
+  margin: 100px 35px;
+  padding: 25px 0;
+  align-content: center;
+  vertical-align: middle;
+  border: 1px solid yellow;
+}
+
+
+ .destaques_ul li{
+  display: inline-block;
+  align-items: center;
+  padding-top: 10px;
+  border: 1px solid white;
+} 
+
+.cardapio{
+  height: 160px;
+  width: 160px;
+  margin:0 10px;
+  vertical-align: top;
+}
+
+.destaques_texto{
+  margin-left:10px;
+  height:60px;
+  width: 160px;
+  text-align: center;
+}
+
+.destaques_paragrafo{
+  margin-left:10px;
+  height:120px;
+  width: 180px;
+  text-align: center;
+}

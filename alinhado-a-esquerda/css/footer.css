@@ -1,0 +1,17 @@
+
+.rodape{
+    width:100%;
+    text-align: center;
+    display: inline-block;
+    padding: 40px 0;
+    background-color: #474545;
+    
+
+}
+
+.copyright{
+	color: #FFFFFF;
+	font-size:  13px;
+	margin: 10px 0;
+    
+}
