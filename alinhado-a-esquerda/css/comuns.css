@@ -45,8 +45,21 @@
   margin: 0 6px;
   padding-top: 10px;
 	font-family: 'Montserrat', sans-serif;
-  border: 1px solid ;
+  border: 1px solid black;
+  border-radius: 5px;
 } 
+
+.destaques_ul li:hover{
+  border: 1px solid #05C3DD;
+  color: #05C3DD;
+  font-weight: bold;
+}
+
+.destaques_ul li:active{
+  border: 1px solid #A123A1;
+  color: #A123A1;
+  font-weight: bold;
+}
 
 .cardapio{
   height: 160px;
