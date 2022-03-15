@@ -95,3 +95,69 @@
 
 /*Contato*/ 
 
+.contato{
+  width: 940px;
+  margin: 0 auto;
+}
+
+form{
+  margin: 40px 70px;
+  font-family: 'Montserrat';
+  
+}
+
+form label, form legend{
+  display:block;
+  font-size: 20px;
+  margin:10px 0;
+}
+
+.input-padrao{
+  display: block;
+  margin: 0 0 20px;
+  padding: 10px 25px;
+}
+
+#address{
+  padding: 10px 200px;
+}
+
+.funcionamento{
+  margin: 40px 100px;
+}
+
+.enviar{
+  width:50%;
+  margin-top: 25px;
+  padding: 15px 0;
+  background: lightskyblue;
+  color:azure;
+  font-family: 'Montserrat';
+  border:none;
+  border-radius:5px;
+  cursor:pointer;
+}
+
+.enviar:hover{
+  background: darkblue;
+  font-weight: bold;
+  transform: scale(1.1);
+}
+
+table{
+  margin: 20px 100px;
+  font-family: 'Montserrat';
+}
+
+thead{
+  background: #6082B6;
+  color:whitesmoke;
+  font-weight: bold;
+}
+
+td,th{
+  border: 1px solid #000000;
+  border-radius: 2px;
+  padding: 8px 15px;
+}
+
