@@ -46,51 +46,107 @@
 
             <div class="principal">
                 <form>
-                    <label for="nomesobrenome"> Nome e sobrenome </label> 
-                    <input type="text" id="nomesobrenome" class="input-padrao" 
-                    required placeholder="Insira seu nome">
-                    
-				    <label for="email"> E-mail </label>
-				    <input type="email" id="email" class="input-padrao" 
-                    required placeholder="seuemail@dominio.com">
+                    <label for="nomesobrenome"> Nome e sobrenome </label>
+                    <input type="text" id="nomesobrenome" class="input-padrao" required placeholder="Insira seu nome">
 
-				    <label for="telefone">Telefone</label>
-				    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
+                    <label for="email"> E-mail </label>
+                    <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
 
-				
-                    <fieldset>
+                    <label for="telefone">Telefone</label>
+                    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
-					    <legend>Como prefere o nosso contato para a reserva ou entrega?</legend>
-
-	    				<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
-
-    					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
-                        
-    					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
-
-                    </fieldset>  
 
                     <fieldset>
-					<legend>Qual horário prefere reservar mesas?</legend>
+
+                        <legend>Como prefere o nosso contato para a reserva ou entrega?</legend>
+
+                        <label for="radio-email"><input type="radio" name="contato" value="email"
+                                id="radio-email">Email</label>
+
+                        <label for="radio-telefone"><input type="radio" name="contato" value="telefone"
+                                id="radio-telefone">Telefone</label>
+
+                        <label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp"
+                                id="radio-whatsapp" checked> Whatsapp</label>
+
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Qual horário prefere reservar mesas?</legend>
 
                         <select>
                             <option>19h00</option>
                             <option>20h00</option>
                             <option>21h00</option>
-                            <option>22h00</option>
+                            <option>22h00*</option>
                         </select>
+
+                        <p>*Ao final da semana o estabelecimento opera até 23h</p>
+
                     </fieldset>
 
+                    
+
                     <fieldset>
-                        <label for="address">Qual seu endereço para entrega?</label>
-                        <input type="adress" id="address" class="input-padrao" 
-                        required placeholder="Logradouro/nº/Bairro/CEP">
+                        <label for="address">Qual o endereço para entrega?</label>
+                        <input type="adress" id="address" class="input-padrao" required
+                            placeholder="Logradouro/nº/Bairro/CEP">
                     </fieldset>
 
                     <input type="submit" value="Enviar formulário" class="enviar">
 
                 </form>
+
+                <h3>Horários de funcionamento</h3>
+
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Dia</th>
+                            <th>Horário</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Terça</td>
+                            <td>19h-22h</td>
+                        </tr>
+
+                        <tr>
+                            <td>Quarta</td>
+                            <td>19h-22h</td>
+                        </tr>
+
+                        <tr>
+                            <td>Quinta</td>
+                            <td>19h-23h</td>
+                        </tr>
+
+                        <tr>
+                            <td>Sexta</td>
+                            <td>19h-23h</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>Sábado</td>
+                            <td>19h-23h</td>
+
+                        </tr>
+
+                        <tr>
+                            <td>Domingo</td>
+                            <td>19h-22h</td>
+
+                        </tr>
+
+                    </tbody>
+                </table>
+
                 
+
+
             </div>
         </main>
 
