@@ -52,3 +52,13 @@
 
 /* Contato */ 
 
+.titulo_contato{
+    text-align: center;
+   margin: auto;
+   font-family: 'Poppins',sans-serif;
+   font-size: 2em;
+    font-weight: bold;
+    padding-top: calc(60px - 16px);
+
+
+}
