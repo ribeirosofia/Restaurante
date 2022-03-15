@@ -18,10 +18,22 @@ nav a{
     text-transform: uppercase;
     text-decoration: none;
     font-family: 'Sunflower', sans-serif;
-    color: #4E2A2A;
+    color: #3C1321;
 }
 
+nav a:hover{
+    color: #f698b2;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+}
 
+nav a:active{
+    color: #C66E4E;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: underline;
+}
 
 .img-menu{
     margin-top: 50px;
