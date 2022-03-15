@@ -5,12 +5,12 @@ nav{
     float: left;
     vertical-align: top;
     height: 970px;
+    border: 1px solid green;
 }
 
 nav li{
     padding: 10px 0;
     text-align: center;
-    
     
 }
 
