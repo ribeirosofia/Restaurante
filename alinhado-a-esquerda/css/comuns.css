@@ -44,6 +44,7 @@
   align-items: center;
   margin: 0 6px;
   padding-top: 10px;
+	font-family: 'Montserrat', sans-serif;
   border: 1px solid ;
 } 
 
@@ -66,4 +67,10 @@
   height:120px;
   width: 180px;
   text-align: center;
+}
+
+.destaques_paragrafo{
+  padding-top: 13px;
+  text-align: center;
+
 }
