@@ -1,25 +1,37 @@
 <!DOCTYPE html lang="pt-br">
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width", initial-scale = "1.0" >
-        <title>Sehana Sushi| Contato</title>
-        <link rel="stylesheet" href="reset.css"> 
-         !--Inserir stylesheet css 
-         Inserir fonte css --!
 
-    </head> 
-    
-    <body>
-        
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width" , initial-scale="1.0">
+    <title>Sehana Sushi| Contato</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="../css/cabecalho.css" />
+    <link rel="stylesheet" href="../css/menu.css" />
+    <link rel="stylesheet" href="../css/comuns.css" />
+
+</head>
+
+<body>
+    <div class="container">
         <header>
-            <div>
-                <h1> <img src="sehana_logo.png" alt="Logo da Sehana
-                    Sushi, em que aparece um circulo minimalista com
-                    um ramo de cerejeira, e ao fundo uma serra em 
-                    traços minimalistas"> </h1> 
+            <div class="cabecalho">
+                <div class="logo">
+                    <img class="logoimg" src="../img/sehana_logo.png" alt="Logo da Sehana
+                              Sushi, em que aparece um circulo minimalista com
+                              um ramo de cerejeira, e ao fundo uma serra em 
+                              traços minimalistas" />
+                </div>
 
+                <div class="caixa">
+                    <h1>Contato</h1>
+                </div>
+            </div>
+        </header>
+
+        <main class="contato">
+            <div class="navegacao">
                 <nav>
                     <ul>
                         <li><a href="home.html">Home</a> </li>
@@ -28,16 +40,69 @@
                         <li><a href="contato.html">Contato</a></li>
                         <li><a href="quem_somos.html">Quem Somos</a></li>
                     </ul>
-                    
+
                 </nav>
             </div>
 
-        </header>
+            <div class="principal">
+                <form>
+                    <label for="nomesobrenome"> Nome e sobrenome </label> 
+                    <input type="text" id="nomesobrenome" class="input-padrao" 
+                    required placeholder="Insira seu nome">
+                    
+				    <label for="email"> E-mail </label>
+				    <input type="email" id="email" class="input-padrao" 
+                    required placeholder="seuemail@dominio.com">
 
-        <footer>
-            
-        </footer>
+				    <label for="telefone">Telefone</label>
+				    <input type="tel" id="telefone" class="input-padrao" required placeholder="(XX) XXXXX-XXXX">
 
-    </body>
+				
+                    <fieldset>
+
+					    <legend>Como prefere o nosso contato para a reserva ou entrega?</legend>
+
+	    				<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email">Email</label>
+
+    					<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone">Telefone</label>
+                        
+    					<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked> Whatsapp</label>
+
+                    </fieldset>  
+
+                    <fieldset>
+					<legend>Qual horário prefere reservar mesas?</legend>
+
+                        <select>
+                            <option>19h00</option>
+                            <option>20h00</option>
+                            <option>21h00</option>
+                            <option>22h00</option>
+                        </select>
+                    </fieldset>
+
+                    <fieldset>
+                        <label for="address">Qual seu endereço para entrega?</label>
+                        <input type="adress" id="address" class="input-padrao" 
+                        required placeholder="Logradouro/nº/Bairro/CEP">
+                    </fieldset>
+
+                    <input type="submit" value="Enviar formulário" class="enviar">
+
+                </form>
+                
+            </div>
+        </main>
+
+    </div>
+
+
+
+    <footer>
+
+    </footer>
+
+    </div>
+</body>
 
 </html>
