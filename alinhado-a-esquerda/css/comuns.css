@@ -2,8 +2,8 @@
 
 .container {
   width: 940px;
-  border: 1px solid red;
- /* background: url("../img/cherry-bg-red.jpg");*/
+  /*border: 1px solid red;*/
+ background: url("../img/cherry-bg-red.jpg");
 }
 
 .subtitulo_2 {
@@ -104,6 +104,10 @@ form{
   margin: 40px 70px;
   font-family: 'Montserrat';
   
+}
+
+fieldset{
+  border-style: none;
 }
 
 form label, form legend{
