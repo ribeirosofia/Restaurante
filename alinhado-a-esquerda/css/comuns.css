@@ -165,3 +165,17 @@ td,th{
   padding: 8px 15px;
 }
 
+/*
+  *** Comentários gerais ***
+  * Pontos positivos *
+  - A ordem dos seletores está ótima.
+  - Utilizou bem alguns shorthands como margin, padding e border.
+  - Utilizou bem as estruturas dos seletores.
+
+  * Dicas e oportunidades de melhoria *
+  - Interessante apagar seletores que não possuem nada.
+  - Em alguns momentos, é mais interessante utilizar o nome da classe como seletor,
+    pois se for decidido por mudar o tipo de elemento, não será necessário mexer no CSS.
+  - É possível utilizar variáveis para cores, tamanhos e outras coisas que se repetem muitas vezes no código,
+    pra evitar digitar coisas complexas muitas vezes.
+*/

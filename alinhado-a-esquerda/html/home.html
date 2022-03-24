@@ -1,5 +1,7 @@
 <!DOCTYPE html lang="pt-br">
-
+<!-- lang é colocado dentro do html, não no doctype -->
+<!-- existe um atalho no VS Code para criar a base do html: html:5 -->
+<!-- é uma propriedade bem importante -->
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -21,7 +23,7 @@
         
       <header>
   
-        <div class="cabecalho">
+        <div class="cabecalho"> <!-- essa div não precisa existir, pois já tem o header -->
           <div class="logo">
             <img class="logoimg"
               src="../img/sehana_logo.png"
@@ -65,6 +67,7 @@
 
           <div class="destaques">
             <div class="subtitulo">
+               <!-- cuidar com os nomes das classes, para serem intuitivos -->
               <h2 class="subtitulo_2">
                 Tá com fome de quê? <br> <br>
                 Temos o tipo ideal de prato para todos os
@@ -119,3 +122,21 @@
     </div>
   </body>
 </html>
+
+<!--
+  *** Comentários gerais ***
+  * Pontos positivos *
+  - Os alts das imagens estão muito bem explicativos.
+  - Estrutura de pastas bem divididas, o que faz com que os códigos fiquem bem organizados.
+  - Ótima identação.
+  - Boa utilização de h1, h2,h3...
+
+  * Dicas e oportunidades de melhoria *
+  - Existem alguns espaços desnecessários.
+  - Os arquivos na raiz confundem pra saber qual é o projeto correto.
+  - A semântica está boa, mas tem algumas divs que não são necessárias.
+  - É usual deixar os nomes dos arquivos e os nomes das classes em inglês.
+  - O CSS poderia ser dividido em 1 arquivo pra cada tela e 1 arquivo "comum" para todas as telas.
+    A divisão atual está boa, mas o arquivo comuns.css está um pouco confuso.
+  - Para a criação da estrutura do html, com o header contendo as tags mais importantes, pode ser utilizado o atalho html:5 do VS Code.
+  -->
